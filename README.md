@@ -23,7 +23,7 @@ Analysis code for TrUDI ultra-deep three-photon imaging
 * ScanImageTiffReader (OS dependent): https://docs.scanimage.org/Appendix/ScanImage%2BTiffReader.html
 
 
-## Installation:
+## Installation
 
 Extract the code in a separate folder. 
 
@@ -34,7 +34,7 @@ Add the paths to the libraries and functions located in the External and Utiliti
 Typical installation time: < 1 min.
 
 
-## Brief description of main processing files:
+## Brief description of main processing files
 
 * preprocess_scanimage_rawdata.m – Reads and prepares raw data from ScanImage for subsequent pipeline processing.
 
@@ -59,7 +59,7 @@ Typical installation time: < 1 min.
 
 The demo data contains a small experimental dataset. The demo_run.m files demonstrate CaImAn analysis steps. It also adds all the necessary paths to the included packages. Each step should take less than 1 min. 
 
-1. Run preprocess_scanimage_rawdata.m to prepare raw data with default parameters. Expected output: New subfolder with pre-processed data as a TIFF file.
+1. Run preprocess_scanimage_rawdata.m to prepare raw data with default parameters. Expected output: New subfolder with pre-processed data as a TIF file.
 
 2. Run motion_correction_plots.m to visualize motion analysis and corrected images. Expected output: Figures with motion-corrected images and a plot of the motion correction metric.
 
